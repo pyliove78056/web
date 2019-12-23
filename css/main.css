@@ -1,0 +1,181 @@
+@charset "utf-8";
+.container
+
+/*메인슬라이더*/
+.mainSlider{
+    position: relative;
+}
+
+.mainSlider img{
+    width: 100%;
+}
+
+.sliderButL{
+    position: absolute;
+    left: 0px;
+    bottom: 0px; 
+}
+.sliderButL li{
+    height:16px;
+    width: 16px;
+    float: left;
+    background: url(../images/main/blet_visual.png)no-repeat;
+    margin-left: 5px;
+    margin-bottom:10px;
+    text-indent: -9999px;  
+}
+.sliderButL li:first-child{
+    background-position: 0 -16px;
+}
+.sliderButL li a{}
+
+.sliderButR{
+    position: absolute;
+    right:0px;
+    bottom: 0px; 
+    text-indent: -9999px;
+}
+.sliderButR li{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background: url(../images/main/btn_visual_cnt.png)no-repeat;  
+}
+.sliderButR li:nth-child(2){
+    background-position: -45px 0;
+}
+.sliderButR li:nth-child(3){
+    background-position: -90px 0px;
+}
+.sliderButR li a{}
+
+/*메인01*/
+
+.mainCon01{}
+.mainCon01 h2{
+    text-align: center;
+    padding: 20px 0;
+}
+.mainCon01 h2 img{
+    width:35%;
+}
+
+.con01Menu{
+}
+.con01Menu li{
+     padding: 5%;
+     background-size: cover;
+     background-position: center center;
+}
+.con01Menu li a{
+    color:#fff;
+}
+.con01Menu li h3{
+    padding-top:30%;
+}
+.con01Menu li p{}
+
+.con01Menu01{
+    background: url(../images/main/brandSite_img01.jpg)no-repeat;
+}
+.con01Menu02{
+    background: url(../images/main/brandSite_img02.jpg)no-repeat;
+}
+.con01Menu03{
+    background: url(../images/main/brandSite_img03.jpg)no-repeat;
+}
+/*메인컨02*/
+.mainCon02{
+  
+}
+
+.con02Box{
+    margin-top:1%;
+}
+
+.con02Box li{
+    width: 49.5%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.con02Box li:nth-child(2n){
+    margin-right: 0px;
+}
+.con02Box img{
+    width: 100%;
+    display: block;
+}
+.con02Box li a{}
+.con02Box li p{
+    background: #1c97fe;
+    color:#fff;
+    font-size:15px;
+    font-weight: bold;
+    padding: 10%;
+}
+.con02Box li span{
+    display: block;
+    font-size:10px;
+    padding-top: 5%;
+}
+
+/*메인컨03*/
+.mainCon03{}
+
+.mainCon03 h2{
+    text-align: center;
+    padding: 20px 0;
+}
+.mainCon03 h2 img{
+    width: 50%;
+}
+
+.con03Bbox{
+}
+.con03Bbox li{
+    width: 50%;
+    height: 140px;
+    font-size: 10px;
+    float: left;
+    display: inline-block;
+   
+}
+.con03Bbox li img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.con03Bbox .bg{
+    background: #f1f1f1;
+    position: relative;
+}
+.con03Bbox .bg03{
+    background: #f1f1f1;
+    position: relative;
+}
+.con03Bbox .bg03 p{
+  width: 75%;
+  display: block;
+  position: absolute;
+  left: 20px;
+  top:10px;
+  line-height:15px; 
+}
+
+.con03Bbox li a{}
+.con03Bbox li span{
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.con03Bbox li p{
+  width: 75%;
+  display: block;
+  position: absolute;
+  left: 20px;
+  top:25px;
+  line-height:15px; 
+}

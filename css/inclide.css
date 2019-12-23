@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*헤더*/
+#header{
+    height: 35px;
+    background: url(../images/common/bg_top.gif);
+    position: relative;
+}
+
+.headerTop{
+    height: 35px;
+}
+.headerTop h1{
+    width: 120px;
+    position: absolute;
+    left: 0px;
+    background: url(../images/main/logo.gif)no-repeat center center;
+    background-size: 100%;
+    line-height: 35px;
+    margin-left: 2%;
+    text-indent: -9999px;
+}
+.headerTop h1 a{
+    display: block;
+}
+
+.panel{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top:0;
+    right:0;
+    text-indent: -9999px;
+    background: #10509d;
+    vertical-align: middle;
+    
+}
+.panel a{
+    display: block;
+    padding-top: 9px;
+}
+
+.panel a:before,.panel span,.panel a:after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 10% 0; 
+    margin: 0 auto;
+}
+
+.panel span{
+    margin: 5px auto;
+}
+
+/*gnb*/
+.gnb{
+    height: 30px;
+    background: url(../images/common/bg_gnb.gif);
+}
+.gnb li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    border-right:1px solid #ccc;
+    border-left: 1px solid #666;
+    box-sizing: border-box;
+}
+.gnb li:first-child{
+    border-left:0px;
+}
+.gnb li:last-child{
+    border-right: 0px;
+}
+.gnb li a{
+    color:#fff;
+    font-size:13px;
+}
+
+/*푸터*/
+#footer{
+    text-align: center;
+    background: url(../images/common/bg_footer_new.gif);
+    color:#fff;
+    padding: 20px 0;
+}
+#footer p{
+    font-size:1px;
+}
+
+.fInfo{
+    font-size:1px;
+    
+    
+}
+.fInfo li{  
+    display: inline-block;
+   
+}
+.fInfo li:last-child{   
+    border-right:0;
+}
+.fInfo li a{
+    color:#fff;
+    letter-spacing: -2px;
+}
+
+.fInfo02{
+    font-size:1px;
+    margin-top: 10px; 
+}
+.fInfo02 li{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 2%;
+    margin-right: 5%;
+}
+.fInfo02 li:last-child{
+   margin-right: 0; 
+}
+.f01{
+    border-right:1px solid #fff;
+    padding-right: 2%;
+}
+.f02{
+    padding-right: 1%
+}
+.f03{
+    border-right:1px solid #fff;
+    padding-right: 2%;
+}
+.fInfo02 li a{
+    color:#fff;
+}
